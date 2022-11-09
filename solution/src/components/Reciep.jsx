@@ -34,7 +34,6 @@ export default function Reciep({ dispach, state }) {
             >
               Reset
             </button>
-            ;
           </div>
         );
       })}

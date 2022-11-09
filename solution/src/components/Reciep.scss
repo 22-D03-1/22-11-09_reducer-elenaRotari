@@ -1,0 +1,42 @@
+.myreciep {
+  display: grid;
+  grid-template-rows: 100px 450px 1fr;
+  height: 100vh;
+  width: 100vw;
+  background-color: #444;
+  padding: 2rem;
+  .nameReciep {
+    text-align: center;
+    color: yellow;
+  }
+  img {
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 5px white;
+  }
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    h2 {
+      color: orange;
+      text-align: center;
+    }
+    li {
+      list-style-type: none;
+      p {
+        font-size: 1.4rem;
+        color: white;
+      }
+    }
+    .done {
+      text-decoration: line-through;
+      color: chartreuse;
+    }
+    .resetButton {
+      width: max-content;
+    }
+  }
+}
